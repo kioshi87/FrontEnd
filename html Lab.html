@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<style>
+        topbuttons {
+            background-color: white;
+            overflow: none;
+          }
+          
+          .topbuttons a {
+            float: right;
+            color: black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            margin: 2px 4px;
+            padding: 10px;
+            border: none;
+          }
+          
+          .topbuttons a.hover {
+            background-color: gray;
+            color: white;
+            background-image: cross-fade(oval);
+          }
+          
+          .topbuttons a.active {
+            background-color: black;
+            color: white;
+          }
+
+          
+#circle {
+  background-color: pink;
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  position: relative;
+  z-index:101;
+}
+
+#circle2 {
+  background-color: orange;
+  margin: 15px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  position: absolute;
+  top: 20;
+  right: 60;
+  z-index: 102;
+}
+
+#circle3 {
+  background-color: purple;
+  margin: 7.5px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  position: absolute;
+  top: 30;
+  right: 80;
+  z-index: 102;
+}
+</style>
+
+
+
+<body>
+
+<h6 style = font-family:arial align="left">chirpus inc.</h6> 
+
+<div class="topbuttons">
+        <a class="active" href="#hire us">Hire Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#about us">About Us</a>
+        <a href="#work">Work</a>
+        <a href="#home">Home</a>
+</div>
+
+<div>
+<h3 style = font-family:arial align="left">chirpus inc.</h3>
+</div>
+
+<div>
+<pre style = font-family:arial>  
+  Proin pellentesque ultricies gravida. Vivamus consequat tempus
+  lectus vel tempus. Duis cursus porttitor quam at consecetur.
+  Nulla lobortis laoreet liguia, sed aliquet risus vestibulum
+  pellentesque. Sad vehicula ultrices ante, quis porttitor orci
+  pulvinar in. Pellentesque faucibus elementum pulvinar. 
+<pre>
+</div>
+
+<div id="circle"></div>
+<div id="circle2"></div>
+<div id="circle3"></div>
+
+</body>
+</html>
